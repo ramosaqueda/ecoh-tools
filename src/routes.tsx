@@ -9,31 +9,32 @@ import {
   MdBarChart,
   MdPerson,
   MdLock,
+  MdOutlineAddIcCall  
 } from 'react-icons/md';
 
 const routes = [
   {
-    name: 'Main Dashboard',
+    name:  'Dashboard',
     layout: '/admin',
     path: 'default',
     icon: <MdHome className="h-6 w-6" />,
   },
   {
-    name: 'NFT Marketplace',
+    name: 'Gestión de casos',
     layout: '/admin',
     path: 'nft-marketplace',
-    icon: <MdOutlineShoppingCart className="h-6 w-6" />,
+    icon: <MdOutlineAddIcCall   className="h-6 w-6" />,
 
     secondary: true,
   },
   {
-    name: 'Data Tables',
+    name: 'Estadisticas',
     layout: '/admin',
     icon: <MdBarChart className="h-6 w-6" />,
     path: 'data-tables',
   },
   {
-    name: 'Profile',
+    name: 'Perfile',
     layout: '/admin',
     path: 'profile',
     icon: <MdPerson className="h-6 w-6" />,
@@ -45,10 +46,10 @@ const routes = [
     icon: <MdLock className="h-6 w-6" />,
   },
   {
-    name: 'RTL Admin',
-    layout: '/rtl',
-    path: 'rtl-default',
-    icon: <MdHome className="h-6 w-6" />,
-  },
+    name: 'Gestion de casos',
+    layout: '/gestion',
+    path: 'index',
+    icon: <MdLock className="h-6 w-6" />,
+  }
 ];
 export default routes;

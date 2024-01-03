@@ -46,7 +46,7 @@ function CheckTable(props: { tableData: any }) {
       id: "progress",
       header: () => (
         <p className="text-sm font-bold text-gray-600 dark:text-white">
-          PROGRESS
+          Progreso a otro perro con ese hueso
         </p>
       ),
       cell: (info) => (
